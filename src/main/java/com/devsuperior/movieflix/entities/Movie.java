@@ -41,7 +41,7 @@ public class Movie {
     public Movie(){
 
     }
-
+    
     public Movie(Long id, String title, String subTitle, Integer year, String imgUrl, String synopsis, Genre genre) {
         this.id = id;
         this.title = title;

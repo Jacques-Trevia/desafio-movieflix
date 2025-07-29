@@ -13,7 +13,7 @@ import com.devsuperior.movieflix.dto.GenreDTO;
 import com.devsuperior.movieflix.services.GenreService;
 
 @RestController
-@RequestMapping(value = "genres")
+@RequestMapping(value = "/genres")
 public class GenreController {
 	
 	@Autowired

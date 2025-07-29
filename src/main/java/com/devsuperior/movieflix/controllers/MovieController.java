@@ -16,7 +16,7 @@ import com.devsuperior.movieflix.dto.MovieDetailsDTO;
 import com.devsuperior.movieflix.services.MovieService;
 
 @RestController
-@RequestMapping(value = "movies")
+@RequestMapping(value = "/movies")
 public class MovieController {
 	
 	@Autowired
